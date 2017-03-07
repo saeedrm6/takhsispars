@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+    <script src="https://www.amcharts.com/lib/3/ammap.js"></script>
+    <script src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
+    <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+    <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+        <header data-spy="affix" data-offset-top="35">
+          <div class="col-md-12 nopadding" id="top_head_div">
+          <br>
+          <br>
+            <div class="col-md-2 col-xs-0"></div>
+            <div class="col-md-8 col-xs-12" id="top_menu">
+              <div class="logo text-center">
+                <center><a href=""><img src="images/LOGO-EF-FINAL.png" class="img-responsive" alt=""></a></center>
+              </div>
+              <div class="menu">
+              <nav class="navbar navbar-default">
+                <div class="container-fluid">
+
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="images/Logo-122.png" class="img-responsive" alt="تخصیص پارس"></a>
+                  </div>
+
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul dir="rtl" class="nav navbar-nav text-right">
+                      <li><a href="#">صفحه نخست</a></li>
+                      <li><a href="#">درباره ما</a></li>
+                      <li><a href="">سازمان</a></li>
+                      <li><a href="">خدمات</a></li>
+                      <li><a href="">گروه های تخصصی</a></li>
+                      <li><a href="">پروژه ها</a></li>
+                      <li><a href="">اخبار و اطلاعات</a></li>
+                      <li><a href="">ارتباط با ما</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            </div>
+            <div class="col-md-2 col-xs-0"></div>
+
+            
+          </div>
+        </header>
+
+        <div class="clearfix"></div>
+
+        <div class="slider">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="images/slider/1.jpg" alt="Chania" width="100%" height="450px">
+              </div>
+              <div class="item">
+                <img src="images/slider/2.jpg" width="100%" height="450px" alt="">
+              </div>
+            </div>
+
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+
+          </div>
+        </div>
+
+        <div class="minchoice">
+          <div class="col-md-1"></div>
+
+          <div class="col-md-10" id="minchoicepics">
+            <div class="col-md-4 wow fadeInLeft">
+              <a href="" class="portfolio-box"><img src="images/minchoice/1.jpg" class="img-responsive" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="category">گروه معماری و شهر سازی</div>
+                </div>
+              </div>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="" class="portfolio-box"><img src="images/minchoice/2.jpg" class="img-responsive" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="category">گروه مهندسی آب و فاضلاب</div>
+                </div>
+              </div>
+              </a>
+            </div>
+            <div class="col-md-4 wow fadeInRight">
+              <a href="" class="portfolio-box"><img src="images/minchoice/3.jpg" class="img-responsive" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="category">گروه راه و ترابری</div>
+                </div>
+              </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-1"></div>
+        </div>
+
+
+        <div class="clearfix" id="clearfixx"></div>
+
+        <section id="about_company">
+          <div class="container">
+            <div class="col-md-5 wow slideInLeft" id="about_img">
+              <img src="images/about.jpg" class="img-responsive" alt="">
+              <div class="pos_img"></div>
+            </div>
+
+            <div class="col-md-6 col-md-offset-1 wow slideInRight" id="about_text">
+              <h2>درباره شرکت</h2>
+              <p class="text-justify">شرکت مهندسی و مدیریت تخصیص پارس با بهره گیری از تجربیات مهندسین با سابقه و دارای تجربه ای ارزنده در صنعت زیربنایی کشور، در سال ۱۳۸۰ به صورت مجموعه ای فعال در عرصه ی مهندسی و مدیریت آغاز به کار کرد. شرکت با بهره گیری از تجربیات مدیران خود در زمینه های مدیریت پروژه و موفقیت های چشمگیر در انجام پروژه های داخل و خارج، در حال حاضر به یکی از شرکت های مطرح در تخصص معماری و شهرسازی تبدیل شده است. فعالیت در زمینه های آب و فاضلاب و همکاری در پروژه های بین‌المللی با بانک توسعه اسلامی از دیگر تجربیات این شرکت می باشد. انجام خدمات مطالعات امکان سنجی، فنی، مالی، اقتصادی جهت ارائه به بانک‌های بین‌المللی نیز از دیگر تخصص های این شرکت بوده است که طی این مدت توانسته است با ارائه گزارش های خود تعداد زیادی از پروژه های آب و فاضلاب را مشمول دریافت کمک های مالی از بانک توسعه اسلامی بنماید. این شرکت هم اکنون پروژه های بزرگی همچون مصلای امام خمینی( ره) که یکی از پروژه های شاخص معماری در کشور می باشد را به عنوان مشاور مادر، راهبری فنی می نماید.</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="clearfix"></div>
+
+        <section id="salahiat">
+            <div class="container">
+
+              <div class="col-md-3 text-center">
+                <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+                  
+                  <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                      <img src="images/salahiat/2.jpg" class="img-responsive" alt="">
+                    </div>
+                    <div class="item">
+                      <img src="images/salahiat/3.jpg" class="img-responsive" alt="">
+                    </div>
+                    <div class="item">
+                      <img src="images/salahiat/1.png" class="img-responsive" alt="">
+                    </div>
+                  </div>
+
+                  <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+
+                </div>
+              </div>
+
+            <div class="col-md-7 col-md-offset-2">
+              <h2>صلاحیت ها</h2>
+              <div class="col-md-6">
+                <ul class="nav">
+                  <li><i class="glyphicon glyphicon-star-empty"></i> شبکه های آبیاری و زهکشی</li>
+                  <li id="list-sal"><i class="glyphicon glyphicon-star-empty"></i> تاسیسات آب و فاضلاب</li>
+                  <li style="padding: 0;"><i class="glyphicon glyphicon-star-empty"></i> سازه</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul class="nav">
+                  <li><i class="glyphicon glyphicon-star-empty"></i> ساختمان‌ های مسکونی، تجاری، اداری، صنعتی و نظامی</li>
+                  <li><i class="glyphicon glyphicon-star-empty"></i> ساختمان های آموزشی،‌ ورزشی،‌ بهداشتی و درمانی</li>
+                  <li><i class="glyphicon glyphicon-star-empty"></i> طراحی شهری</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <div class="clearfix"></div>
+
+        <section id="ghozide" class="nopadding">
+
+          <div class="col-md-12" id="shahrsazi">
+            <div class="col-md-5"></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-3">
+              <div class="shahr">
+                <h3>گروه معماری و شهر سازی</h3>
+                <div class="shahrdetail">
+                  <h4 class="text-center">مصلی بزرگ امام خمینی (ره) تهران</h4>
+                  <br><br>
+                  <ul class="nav">
+                    <li><i class="glyphicon glyphicon-briefcase"></i> <strong>عنوان پروژه</strong> : خدمات مهندسی مشاور مصلای بزرگ امام خمینی (ره)</li>
+                    <li><i class="glyphicon glyphicon-certificate"></i> <strong>کارفرما</strong> : سازمان مجری ساختمان ها و تاسیسات دولتی و عمومی وزارت راه و شهرسازی</li>
+                    <li><i class="glyphicon glyphicon-map-marker"></i> <strong>موقعیت</strong> : تهران</li>
+                    <li></li>
+                  </ul>
+                  <br><br>
+                  <a class="btn btn-primary pull-left" href="">بیشتر بخوانید</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3"></div>
+          </div>
+
+          <div class="col-md-12" id="aab">
+            <div class="col-md-5"></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-3">
+              <div class="aab">
+                <h3>گروه مهندسی آب و فاضلاب</h3>
+                <div class="shahrdetail">
+                  <h4 class="text-center">مشاور مدیریت طرح (PMU) بخشی از طرح فاضلاب همدان</h4>
+                  <br><br>
+                  <ul class="nav">
+                    <li><i class="glyphicon glyphicon-briefcase"></i> <strong>عنوان پروژه</strong> : مشاور مدیریت طرح (PMU) بخشی از طرح فاضلاب همدان</li>
+                    <li><i class="glyphicon glyphicon-certificate"></i> <strong>کارفرما</strong> : شرکت آب و فاضلاب استان همدان با تامین مالی بامک توسعه اسلامی</li>
+                    <li><i class="glyphicon glyphicon-map-marker"></i> <strong>موقعیت</strong> : همدان</li>
+                    <li></li>
+                  </ul>
+                  <br><br>
+                  <a class="btn btn-primary pull-left" href="">بیشتر بخوانید</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3"></div>            
+          </div>
+
+          <div class="col-md-12" id="tarabari">
+            <div class="col-md-5"></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-3">
+              <div class="tarabari">
+                <h3>گروه راه و ترابری</h3>
+                <div class="shahrdetail">
+                  <h4 class="text-center">خدمات مشاور اداره کل ساختمان و تاسیسات راه آهن جمهوری اسلامی ایران</h4>
+                  <br><br>
+                  <ul class="nav">
+                    <li><i class="glyphicon glyphicon-briefcase"></i> <strong>عنوان پروژه</strong> : خدمات مشاور در امور ساختمان و تاسیسات ایستگاه های کشور</li>
+                    <li><i class="glyphicon glyphicon-certificate"></i> <strong>کارفرما</strong> : اداره کل ساختمان و تاسیسات راه آهن جمهوری اسلامی ایران</li>
+                    <li><i class="glyphicon glyphicon-map-marker"></i> <strong>موقعیت</strong> : ایستگاه های راه آهن کل کشور</li>
+                    <li></li>
+                  </ul>
+                  <br><br>
+                  <a class="btn btn-primary pull-left" href="">بیشتر بخوانید</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3"></div>
+          </div>
+
+          <div class="col-md-12" id="beynol">
+            <div class="col-md-5"></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-3">
+              <div class="beynol">
+                <h3>پروژه های بین الملل</h3>
+                <div class="shahrdetail">
+                  <h4 class="text-center">کارخانه سیمان حماه</h4>
+                  <br><br>
+                  <ul class="nav">
+                    <li><i class="glyphicon glyphicon-briefcase"></i> <strong>عنوان پروژه</strong> : خدمات برنامه ریزی و کنترل پروژه احداث کارخانه سیمان حماه</li>
+                    <li><i class="glyphicon glyphicon-certificate"></i> <strong>کارفرما</strong> : مشارکت سیمان حماه - شرکت احداث صنعت</li>
+                    <li><i class="glyphicon glyphicon-map-marker"></i> <strong>موقعیت</strong> : شهر حماه - کشور سوریه</li>
+                    <li></li>
+                  </ul>
+                  <br><br>
+                  <a class="btn btn-primary pull-left" href="">بیشتر بخوانید</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3"></div>
+          </div>
+        </section>
+
+        <div class="clearfix"></div>        
+
+        <section id="officemaps" class="nopadding">
+          <div class="container">
+            <h2>پروژه ها</h2>
+          </div>
+          <div class="col-md-8 nopadding">
+            <p class="text-center">برخی از پروژه های ما در سطح بین الملل</p>
+            <div class="wow" id="chartdiv"></div>
+          </div>
+          <div class="col-md-4 nopadding">
+            <p class="text-center">برخی از پروژه های ما در سطح ایران</p>
+            <div class="wow" id="chartdivv"></div>
+          </div>
+          <div class="clearfix"></div>
+        </section>
+
+        <div class="clearfix"></div>  
+
+        <section id="latestnews">
+          <div class="container">
+            <h2>آخرین اخبار</h2>
+            <div class="clearfix"></div>
+            <br>
+
+            <div class="row">
+
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="images/post-slider/1.jpg" class="img-responsive" alt="...">
+                  <div class="caption">
+                    <a href=""><h3>برگزاری دوره آموزش عمومی اصول و مبانی ایمنی و بهداشت در شرکت مهندسی و مدیریت تخصیص پارس</h3></a>
+                    <br>
+                    <p class="pull-left"><a href="#" class="btn btn-success" role="button">ادامه مطلب</a></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="images/post-slider/2.jpg" class="img-responsive" alt="...">
+                  <div class="caption">
+                    <a href=""><h3>همایش ارتقاء عملکرد در حوزه ساختمان و تاسیسات راه آهن</h3></a>
+                    <p class="pull-left"><a href="#" class="btn btn-success" role="button">ادامه مطلب</a></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="images/post-slider/3.jpg" class="img-responsive" alt="...">
+                  <div class="caption">
+                    <a href=""><h3>برگزاری نماز عید فطر به امامت رهبر انقلاب در مصلای امام خمینی (ره)</h3></a>
+                    <p class="pull-left"><a href="#" class="btn btn-success" role="button">ادامه مطلب</a></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="clearfix"></div>  <!-- fard ha clearfix -->
+
+
+            </div>
+
+          </div>
+        </section>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/creative.js"></script>
+    <script src="js/map.js"></script>
+  </body>
+</html>
